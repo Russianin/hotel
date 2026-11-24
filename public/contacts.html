@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — Тихий дом</title>
+  <meta name="description" content="Как добраться до бутик-отеля «Тихий дом»: Москва, Тихий переулок, 7. Телефон, почта и форма связи.">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body class="page-contacts">
+<header class="site-header">
+    <a class="logo" href="index.html">
+      <span class="logo__name">Тихий дом</span>
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Номера</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html" aria-current="page">Контакты</a>
+    </nav>
+    <a class="header-phone" href="tel:+74951201707">+7 (495) 120-17-07</a>
+  </header>
+  <main>
+    <section class="page-head">
+      <h1>Контакты</h1>
+      <p>Как добраться, телефон, почта и форма связи.</p>
+    </section>
+    <section class="contacts-info">
+      <h2>Как нас найти</h2>
+      <address>Москва, Тихий переулок, 7</address>
+      <ul>
+        <li>Метро «Кропоткинская» — 7 минут пешком</li>
+        <li>Телефон: <a href="tel:+74951201707">+7 (495) 120-17-07</a></li>
+        <li>Почта: <a href="mailto:stay@tihiy-dom.ru">stay@tihiy-dom.ru</a></li>
+        <li>Заезд с 15:00, выезд до 12:00</li>
+      </ul>
+    </section>
+    <section class="contact-form">
+      <h2>Напишите нам</h2>
+      <form action="#" method="post">
+        <label for="name">Имя <input type="text" id="name" name="name" required></label>
+        <label for="email">Почта <input type="email" id="email" name="email" required></label>
+        <label for="message">Сообщение <textarea id="message" name="message" rows="5" required></textarea></label>
+        <label class="consent"><input type="checkbox" name="consent" required> Согласен на обработку персональных данных</label>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+    <section class="rules">
+      <h2>Правила проживания</h2>
+      <ul>
+        <li>Заезд с 15:00, выезд до 12:00. Ранний заезд — по возможности.</li>
+        <li>Размещение с питомцами — по предварительному согласованию.</li>
+        <li>Бронь удерживается до 18:00 дня заезда.</li>
+        <li>Оплата при заезде, картой или наличными.</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-about">
+      <p>Бутик-отель в старом особняке в Хамовниках: двенадцать номеров, библиотека с камином и сад во внутреннем дворе.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Навигация в подвале">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Номера</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <address class="footer-contacts">
+      Москва, Тихий переулок, 7<br>
+      <a href="tel:+74951201707">+7 (495) 120-17-07</a><br>
+      <a href="mailto:stay@tihiy-dom.ru">stay@tihiy-dom.ru</a>
+    </address>
+    <form class="newsletter" action="#" method="post">
+      <label for="subscribe-email">Рассылка о свободных номерах</label>
+      <input type="email" id="subscribe-email" name="email" placeholder="Ваша почта" required>
+      <button type="submit">Подписаться</button>
+    </form>
+  </footer>
+</body>
+</html>

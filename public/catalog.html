@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Номера и апартаменты — Тихий дом</title>
+  <meta name="description" content="Выберите номер в бутик-отеле «Тихий дом»: от тихого стандарта до люкса с библиотекой.">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body class="page-catalog">
+<header class="site-header">
+    <a class="logo" href="index.html">
+      <span class="logo__name">Тихий дом</span>
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html" aria-current="page">Номера</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <a class="header-phone" href="tel:+74951201707">+7 (495) 120-17-07</a>
+  </header>
+  <main>
+    <section class="page-head">
+      <h1>Номера и апартаменты</h1>
+      <p>Двенадцать номеров в старом особняке. У каждого — свой вид, свой свет и свой характер.</p>
+    </section>
+    <section class="filters">
+      <h2>Подбор номера</h2>
+      <form action="#" method="get">
+        <label for="check-in">Заезд <input type="date" id="check-in" name="check-in"></label>
+        <label for="check-out">Выезд <input type="date" id="check-out" name="check-out"></label>
+        <label for="guests">Гости
+          <select id="guests" name="guests">
+            <option value="1">1 гость</option>
+            <option value="2" selected>2 гостя</option>
+            <option value="3">3 гостя</option>
+            <option value="4">4 гостя</option>
+          </select>
+        </label>
+        <label for="category">Категория
+          <select id="category" name="category">
+            <option value="" selected>Любая</option>
+            <option value="standard">Стандарт</option>
+            <option value="superior">Супериор</option>
+            <option value="deluxe">Делюкс</option>
+            <option value="suite">Люкс</option>
+            <option value="family">Семейный</option>
+          </select>
+        </label>
+        <button type="submit">Подобрать</button>
+      </form>
+    </section>
+    <section class="rooms">
+      <h2>Все номера</h2>
+      <article class="room-card">
+        <h3>Стандарт «Тихая комната»</h3>
+        <p>18 м², до 2 гостей, 2 этаж. Окна во внутренний двор, кровать с льняным бельем.</p>
+        <p class="room-price">9 900 ₽ за ночь</p>
+      <a class="room-link" href="room.html">Подробнее</a>
+      </article>
+      <article class="room-card">
+        <h3>Комфорт «Теплый свет»</h3>
+        <p>21 м², до 2 гостей, 3 этаж. Окна на тихие крыши, кресло для чтения.</p>
+        <p class="room-price">11 900 ₽ за ночь</p>
+      <a class="room-link" href="room.html">Подробнее</a>
+      </article>
+      <article class="room-card">
+        <h3>Супериор «Свет утра»</h3>
+        <p>22 м², до 2 гостей, 4 этаж. Окна на восток — утренний свет в номере.</p>
+        <p class="room-price">13 500 ₽ за ночь</p>
+      <a class="room-link" href="room.html">Подробнее</a>
+      </article>
+      <article class="room-card">
+        <h3>Студия «Свой уголок»</h3>
+        <p>28 м², до 2 гостей, 4 этаж. Кухонная зона, диван и полка с пластинками.</p>
+        <p class="room-price">15 900 ₽ за ночь</p>
+      <a class="room-link" href="room.html">Подробнее</a>
+      </article>
+      <article class="room-card">
+        <h3>Делюкс «Оливковая гостиная»</h3>
+        <p>26 м², до 2 гостей, 3 этаж. Гостиная зона и вид на крыши переулка.</p>
+        <p class="room-price">17 800 ₽ за ночь</p>
+      <a class="room-link" href="room.html">Подробнее</a>
+      </article>
+      <article class="room-card">
+        <h3>Джуниор люкс «Утренний сад»</h3>
+        <p>32 м², до 3 гостей, 2 этаж. Рядом библиотека с камином, вид на старый сад.</p>
+        <p class="room-price">19 500 ₽ за ночь</p>
+      <a class="room-link" href="room.html">Подробнее</a>
+      </article>
+      <article class="room-card">
+        <h3>Семейный «Гнездо»</h3>
+        <p>34 м², до 4 гостей, 1 этаж. Две комнаты и выход в сад.</p>
+        <p class="room-price">21 000 ₽ за ночь</p>
+      <a class="room-link" href="room.html">Подробнее</a>
+      </article>
+      <article class="room-card">
+        <h3>Люкс «Библиотека»</h3>
+        <p>38 м², до 3 гостей, 4 этаж. Большое окно и изголовье ручной работы.</p>
+        <p class="room-price">24 500 ₽ за ночь</p>
+      <a class="room-link" href="room.html">Подробнее</a>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-about">
+      <p>Бутик-отель в старом особняке в Хамовниках: двенадцать номеров, библиотека с камином и сад во внутреннем дворе.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Навигация в подвале">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Номера</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <address class="footer-contacts">
+      Москва, Тихий переулок, 7<br>
+      <a href="tel:+74951201707">+7 (495) 120-17-07</a><br>
+      <a href="mailto:stay@tihiy-dom.ru">stay@tihiy-dom.ru</a>
+    </address>
+    <form class="newsletter" action="#" method="post">
+      <label for="subscribe-email">Рассылка о свободных номерах</label>
+      <input type="email" id="subscribe-email" name="email" placeholder="Ваша почта" required>
+      <button type="submit">Подписаться</button>
+    </form>
+  </footer>
+</body>
+</html>
